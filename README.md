@@ -111,7 +111,17 @@ Dot and Square Bracket [] Notations
 - Dot notation is typically faster than the Square Bracket [] notation.
 
 Arrays
+- To declare and initialise a JS Array : var myArray = [100, 200, 300];
+- To access values of JS Array : myArray[0] = 100, myArray[1] = 200, myArray[2] = 300, myArray[3] = undefined;
+- JS Array is actually a JS Object.
+- array.length --> object.property.
+- Arrays are objects with property names as numbers beginning from 0.
+- myArray[0] is same as myArray["0"].
+- It is actually myArray["0"] only, but when we put myArray[0], JS does type coercion from number 0 to string "0" internally.
+- The length property of JS Arrays does not actually give the actual length of the array, it just provides the last filled index of the Array + 1. Basically, it is a pointer to index just next to last filled index of the Array.
+- Array indexes can also be non - number values.
 
+Wrapper Objects
 
 Functions
 
