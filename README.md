@@ -128,6 +128,12 @@ Wrapper Objects
 - String, Number, Boolean and Symbol primitives have their corresponding Wrapper Objects.
 
 Functions
+- Anything that takes a bunch of arguments, processesthem and returns the result.
+- JavaScript functions have flexible argument counts.
+- JavaScript does not support Overloaded functions (functions with same name but different arguments).
+- JavaScript functions supports Function Expressions or first class functions, wherein functions are itself values to variables and therefore it also supports Anonymous Function Expressions.
+- JavaScript allows functions to pass as arguemnts to other functions.
+- JavaScript allows functions on objects.
 
 
 Anonymous Functions
