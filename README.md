@@ -42,18 +42,36 @@ Variable Decalaration
 - var value = 42;
 - var value; value = 42;  
 
+Declaration
+- var value;
+
+Definition
+- value = 20;
+
 Primitives / Primitive Types
-- Number - Numbers in JavaScript are "double precision 64-bit format IEEE 754 values". (No Integers!).
-- String
-- Boolean 
-- 
+- Number - numbers in JavaScript are "double precision 64-bit format IEEE 754 values". (No Integers!).
+- String - sequences of Unicode characters (16-bit). (No Character type, a Character is just a String of length 1!).
+- Boolean - true / false
+- Undefined - the value between variable decalartion and definition.
+- Null - the field does not contain any content.
+- Symbol - it is an enumeration of bunch of values / constants. (ECMAScript 6).
 
+Undefined Vs Null
+- undefined is applicable when a variable is declared but doesn't have a definition or actual value assigned to it, so it is like the midway stage value that a variable holds between it's declarartion and definition.
+- null is a value that is assigned to variables for which the user inputs the value of that field that is generally Not Applicable (N.A.) to him / her.
 
-Undefined Vs NULL
+Types and Variables 
+- No neeed to declare variable type.
+- The same variable can be assigned values of different types.
+- No scoping information in variable declaration (no data variable constraints like public, private, protected, etc.).
+- Variables and values can be "interrogated".
 
 
 "typeof" Operator
-
+- Tells the type of variable that is declared or defined or created.
+- typeof <value>
+- typeof <variable>
+- Bug in JavaScript - typeof null --> returns object.
 
 Type Coercion and "===" Operator
 
