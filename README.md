@@ -131,12 +131,12 @@ Functions
 - Anything that takes a bunch of arguments, processesthem and returns the result.
 - JavaScript functions have flexible argument counts.
 - JavaScript does not support Overloaded functions (functions with same name but different arguments).
+
+Anonymous Functions
 - JavaScript functions supports Function Expressions or first class functions, wherein functions are itself values to variables and therefore it also supports Anonymous Function Expressions.
 - JavaScript allows functions to pass as arguemnts to other functions.
 - JavaScript allows functions on objects.
 
-
-Anonymous Functions
-
-
 "this" keyword
+- "this" is a keyword that can be used to access the properties fields inside function of another property.
+- "this" keyword makes sure that you are referring to the same object's property field and not any other.
