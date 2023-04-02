@@ -74,7 +74,11 @@ Types and Variables
 - Bug in JavaScript - typeof null --> returns object.
 
 Type Coercion and "===" Operator
-
+- Type Coercion is the automatic type conversion that JavaScript performs on variables. 
+- Concatenation with String values --> 123 + "4" = "1234". (number + string = string).
+- "=" - is an assignemnt operator.
+- "==" - checks if values of both variables present on either side of it are equal irrespective of their types. ("123" == 123 will return true). (JavaScript converts the type of one operand to the other) (in this case number gets converted to string).
+- "===" - checks if values of both variables present on either side of it are equal as well as their types are same. ("123" === 123 will return false but 123 === 123 / "123" === "123" will return true).
 
 Objects
 
