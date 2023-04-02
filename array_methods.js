@@ -14,3 +14,10 @@ console.log(myArray);
 myArray.unshift(500);
 console.log(myArray);
 
+var myArray2 = [10, 20, "Hello", {}];
+
+var myFunction = function(i) {
+    console.log("For an element " + i);
+};
+
+myArray.forEach(myFunction);

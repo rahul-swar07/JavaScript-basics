@@ -160,3 +160,5 @@ Array Methods
 - myArray.pop() --> pops the last element of the array myArray and returns the value of the popped element.
 - myArray.shift() --> shifts that is pops the front element of the array myArray and returns the value of the shifted element.
 - myArray.unshift(500) --> unshifts that is pushes 500 to the front of the array myArray.
+- forEach Method - can be used to access each element of an array.
+- myArray.forEach(function(item, index, array)) - the different arguments that forEach Array Method takes.
