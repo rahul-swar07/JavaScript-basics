@@ -140,3 +140,7 @@ Anonymous Functions
 "this" keyword
 - "this" is a keyword that can be used to access the properties fields inside function of another property.
 - "this" keyword makes sure that you are referring to the same object's property field and not any other.
+
+Default Function Arguments
+- Every function in JavaScript has "arguments" as the default function argument.
+- The "arguments" value is not an array, it's actually an object. 
