@@ -144,3 +144,19 @@ Anonymous Functions
 Default Function Arguments
 - Every function in JavaScript has "arguments" as the default function argument.
 - The "arguments" value is not an array, it's actually an object. 
+
+JavaScript Functions Unit Summary 
+- Functions can be wriiten in literal form.
+- A function is a "value" that can be ssigned to a variable.
+- Can be called by passing in arguments.
+- Functions are Objects!
+- Flexible argument count.
+- No Function Overloading.
+- Default Arguments.
+- The "arguments" Argument. 
+
+Array Methods
+- myArray.push(500) --> pushes 500 to the end of the array myArray.
+- myArray.pop() --> pops the last element of the array myArray and returns the value of the popped element.
+- myArray.shift() --> shifts that is pops the front element of the array myArray and returns the value of the shifted element.
+- myArray.unshift(500) --> unshifts that is pushes 500 to the front of the array myArray.
