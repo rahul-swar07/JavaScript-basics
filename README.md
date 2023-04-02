@@ -104,8 +104,11 @@ Objects Summary
 - New properties can be added on objects directly.
 - Objects can have methods. 
 
-Dot and Bracket Notations
-
+Dot and Square Bracket [] Notations
+- Dot notation is not the only way to access the properties of objects.
+- Square Bracket [] notation is the other type of notation that can be used to access object properties.
+- Use Square Bracket [] notation only when - property name is reserved word / invalid identifier. - property name starts with a number. - property name is dynamic.
+- Dot notation is typically faster than the Square Bracket [] notation.
 
 Arrays
 
