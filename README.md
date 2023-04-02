@@ -122,6 +122,10 @@ Arrays
 - Array indexes can also be non - number values.
 
 Wrapper Objects
+- String is a primitive, then how does length property work on it?
+- When a string length property is called it internally converts string variable to it's equivalent String Wrapper Object.
+- Which in turn allows to use length property on it.
+- String, Number, Boolean and Symbol primitives have their corresponding Wrapper Objects.
 
 Functions
 
