@@ -90,7 +90,19 @@ Type Coercion Summary
 - Always use "==="operator for precise value checks on it's operands (both value and type).
 
 Objects
+- JavaScript is an Object-oriented programming language, but it's not class based.
+- Consists of pair of properties / keys / fields and their corresponding values. 
+- Think of Objects in JavaScript as a Map or a HashMap with keys - value pairs.
+- Object literal - declaring an object and defining or initialising the object with it's properties and their corresponding values.
+- There are no accessors (private, protected, public, etc.) for properties in JavaScript Objects.
+- Accessing property of an object that doesn't exist return undefined.
 
+Objects Summary
+- Free-form - not bound to a class.
+- Object literal notation to create Objects (declaring an object and defining or initialising the object with it's properties and their corresponding values).
+- Objects properties can be accessed directly.
+- New properties can be added on objects directly.
+- Objects can have methods. 
 
 Dot and Bracket Notations
 
