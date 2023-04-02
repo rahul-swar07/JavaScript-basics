@@ -80,6 +80,15 @@ Type Coercion and "===" Operator
 - "==" - checks if values of both variables present on either side of it are equal irrespective of their types. ("123" == 123 will return true). (JavaScript converts the type of one operand to the other) (in this case number gets converted to string).
 - "===" - checks if values of both variables present on either side of it are equal as well as their types are same. ("123" === 123 will return false but 123 === 123 / "123" === "123" will return true).
 
+Type Coercion Summary
+- If a number variable is 0, then in conditional statement it returns false boolean value, whereas if it has any non-zero value (positive or negative) then it returns true boolean value in conditional statement.
+- If a string variable is empty (""), then in conditional statement it returns false boolean value, whereas if it has any non-zero number of characters (1 or greater than 1) then it returns true boolean value in conditional statement.
+- If a variable holds undefined value, it returns false boolean value in conditional statements.
+- If a variable holds null value, it returns false boolean value in conditional statements.
+- JavaScript is "flexible" with typing.
+- Values of all types have an associated Boolean value.
+- Always use "==="operator for precise value checks on it's operands (both value and type).
+
 Objects
 
 

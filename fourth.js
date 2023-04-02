@@ -11,3 +11,59 @@ if(a == b){
 if(a === c){
     console.log("Result of \"===\" operator");
 }
+
+var d;
+if(d){
+    console.log("d is true");
+}
+else{
+    console.log("d is false");
+}
+
+d = null;
+if(d){
+    console.log("d is true");
+}
+else{
+    console.log("d is false");
+}
+
+d = 0;
+if(d){
+    console.log("d is true");
+}
+else{
+    console.log("d is false");
+}
+
+d = -10;
+if(d){
+    console.log("d is true");
+}
+else{
+    console.log("d is false");
+}
+
+d = 10;
+if(d){
+    console.log("d is true");
+}
+else{
+    console.log("d is false");
+}
+
+d = "";
+if(d){
+    console.log("d is true");
+}
+else{
+    console.log("d is false");
+}
+
+d = "Rahul Swar";
+if(d){
+    console.log("d is true");
+}
+else{
+    console.log("d is false");
+}
